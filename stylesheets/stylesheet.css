@@ -97,6 +97,10 @@ p {
   margin: 10px 0 15px 0;
 }
 
+i {
+  font-style: italic;
+}
+
 footer p {
   color: #f2f2f2;
 }
@@ -138,6 +142,13 @@ img {
   margin: 0 auto;
   max-width: 100%;
   object-fit: cover;
+  display: block;
+}
+
+@media (min-width: 641px) {
+  img.hero {
+    height: calc(100vh - 79px);
+  }
 }
 
 p img {
@@ -425,3 +436,6 @@ Small Device Styles
 
 }
 
+iframe.scrolloff {
+  pointer-events: none;
+}
