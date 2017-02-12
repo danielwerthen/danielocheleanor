@@ -5,7 +5,6 @@ var t0 = moment('20170430');
 
 var counts = {
   months: ['månad', 'månader'],
-  weeks: ['vecka', 'veckor'],
   days: ['dag', 'dagar'],
   hours: ['timme', 'timmar'],
   minutes: ['minut', 'minuter'],
